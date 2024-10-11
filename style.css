@@ -1,0 +1,99 @@
+/* General body styling for dark mode */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #FF2E63;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Center the main content */
+h1 {
+    text-align: center;
+    color: #bb86fc;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Label and input styling */
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #E0E0E0;
+}
+
+/* Input field styling */
+input {
+    display: block;
+    width: 60%;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #04009A;
+    color: #E0E0E0;
+    border: 1px solid #bb86fc;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #03dac6;
+}
+
+/* Button styling */
+button {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 12px;
+    background-color: #14FFEC;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+/* Students list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 60%;
+    margin: 0 auto;  /* Center the UL container */
+    text-align: center;  /* Center the content inside */
+}
+
+ul li {
+    display: inline-block; /* Align list items centrally */
+    background-color: #04009A;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    color: #E0E0E0;
+    width: 80%; /* Optional: to control width of each item */
+}
+
+/* Styling for mobile responsiveness */
+@media (max-width: 768px) {
+    input, button, ul {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+}
